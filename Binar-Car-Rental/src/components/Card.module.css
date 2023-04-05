@@ -1,0 +1,30 @@
+.benefit {
+    display: block;
+    width: 16.75rem;
+    padding: 1.5rem;
+    border-style: solid;
+    border-color: #D0D0D0;
+    border-width: 1px;
+    border-radius: 0.5rem;
+}
+
+.testimony {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.userPhoto {
+    padding: 0.875rem;
+}
+
+.userRating {
+    width: 5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .benefit {
+        width: 100%;
+    }
+  }

@@ -1,0 +1,49 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.sandwich {
+  display: none;
+}
+
+.navLinks ul{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 6.0625rem 0 0;
+}
+
+.navLinks li {
+    padding: 0.5rem 1rem;
+    font-weight: 400;
+}
+
+.navLinks li:hover {
+  color: #fff;
+  background-color: #5D3FD3;
+  border-radius: 0.5rem;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .navbar { 
+    padding: 1rem 0 0 0;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .sandwich {
+    display: block;
+    padding: 0.1875rem;
+  }
+}
